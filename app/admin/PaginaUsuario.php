@@ -52,7 +52,7 @@
     </nav>
 
     <div class="col-lg-12 col-md-12 col-sm-12">
-        <h4>Exemplo de Integração: Pagamento com cartão de crédito</h4>
+        <h4> Pagamento com cartão de crédito</h4>
     </div>
 
     <div class="container-fluid">
@@ -63,11 +63,11 @@
                         <h5>Informações do produto/serviço</h5>
 
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Descrição do produto/serviço: (<em class="atributo">name</em>) <br> <strong class="ex">Ex: Monitor LCD</strong></label>
+                            <label for="exampleInputEmail1">Descrição: (<em class="atributo">name</em>) <br> <strong class="ex"></strong></label>
                             <input required type="text" class="form-control" id="descricao" placeholder="Descrição do produto">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1">Valor do produto/serviço: (<em class="atributo">value</em>) <br><strong class="ex">Ex: informar sem pontos ou vírgulas (5000 equivale a R$ 50,00) (int)</strong></label>
+                            <label for="exampleInputPassword1">Valor do serviço: (<em class="atributo">value</em>) <br><strong class="ex"> (5000 equivale a R$ 50,00) (int)</strong></label>
                             <input required type="text" class="form-control" id="valor" placeholder="Valor do Produto">
                         </div>
                         <div class="form-group">
@@ -84,23 +84,23 @@
                         <h5>Informações do cliente</h5>
 
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Nome do cliente: (<em class="atributo">name</em>) <br><strong class="ex">Ex: Gorbadoc Oldbuck</strong></label>
+                            <label for="exampleInputEmail1">Nome do cliente: (<em class="atributo">name</em>) <br><strong class="ex"></strong></label>
                             <input required type="text" class="form-control" id="nome_cliente" placeholder="Nome do cliente">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1">CPF: (<em class="atributo">cpf</em>) <br><strong class="ex"> 94271564656 (sem formatação)</strong></label>
+                            <label for="exampleInputPassword1">CPF: (<em class="atributo">cpf</em>) <br><strong class="ex">(sem formatação)</strong></label>
                             <input required type="text" class="form-control" id="cpf" placeholder="CPF">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1">Telefone: (<em class="atributo">phone_number</em>) <br><strong class="ex">Ex: 5144916523 (sem formatação)</strong></label>
+                            <label for="exampleInputPassword1">Telefone: (<em class="atributo">phone_number</em>) <br><strong class="ex"> (sem formatação)</strong></label>
                             <input required type="text" class="form-control" id="telefone" placeholder="Telefone">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1">Email: (<em class="atributo">email</em>) <br><strong class="ex">Ex: email_cliente@servidor.com.br</strong> </label>
+                            <label for="exampleInputPassword1">Email: (<em class="atributo">email</em>) <br><strong class="ex"></strong> </label>
                             <input required type="text" class="form-control" id="email" placeholder="Email">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1">Data de nascimento: (<em class="atributo">birth</em>) <br><strong class="ex">Ex: 1980-08-31 (yyyy-mm-dd)</strong></label>
+                            <label for="exampleInputPassword1">Data de nascimento: (<em class="atributo">birth</em>) <br><strong class="ex"> (yyyy-mm-dd)</strong></label>
                             <input required type="text" class="form-control" id="nascimento" placeholder="">
                         </div>
 
@@ -109,23 +109,23 @@
                         <h5>Informações do endereçoaaa</h5>
 
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Rua: (<em class="atributo">street</em>) <br><strong class="ex">Ex: Avenida Juscelino Kubitschek</strong></label>
+                            <label for="exampleInputEmail1">Rua: (<em class="atributo">street</em>) <br><strong class="ex"></strong></label>
                             <input required type="text" class="form-control" id="rua" placeholder="Rua">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1">Número: (<em class="atributo">number</em>) <br><strong class="ex">Ex: 10 (int)</strong></label>
+                            <label for="exampleInputPassword1">Número: (<em class="atributo">number</em>) <br><strong class="ex"> (int)</strong></label>
                             <input required type="text" class="form-control" id="numero" placeholder="Número">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1">Bairro: (<em class="atributo">neighborhood</em>) <br><strong class="ex">Ex: Bauxita</strong></label>
+                            <label for="exampleInputPassword1">Bairro: (<em class="atributo">neighborhood</em>) <br><strong class="ex"></strong></label>
                             <input required type="text" class="form-control" id="bairro" placeholder="Bairro">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1">CEP: (<em class="atributo">zipcode</em>) <br><strong class="ex">Ex: 35400000 (string)</strong></label>
+                            <label for="exampleInputPassword1">CEP: (<em class="atributo">zipcode</em>) <br><strong class="ex">(string)</strong></label>
                             <input required type="text" class="form-control" id="cep" placeholder="CEP">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1">Cidade: (<em class="atributo">city</em>) <br><strong class="ex">Ex: Ouro Preto</strong></label>
+                            <label for="exampleInputPassword1">Cidade: (<em class="atributo">city</em>) <br><strong class="ex"></strong></label>
                             <input required type="text" class="form-control" id="cidade" placeholder="Cidade">
                         </div>
                         <div class="form-group">
@@ -140,7 +140,7 @@
                         <h5>Informações de pagamento</h5>
 
                         <div class="form-group">
-                            <label for="exampleInputPassword1">Número do cartão: (<em class="atributo">number</em>)<br><strong class="ex">Ex: 4012001038443335</strong> </label>
+                            <label for="exampleInputPassword1">Número do cartão: (<em class="atributo">number</em>)<br><strong class="ex"></strong> </label>
                             <input required type="text" class="form-control" id="numero_cartao" placeholder="Número do cartão">
                         </div>
                         <div class="form-group">
@@ -155,7 +155,7 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1">Código de segurança: (<em class="atributo">cvv</em>)<br> <strong class="ex">Ex: 123 </strong> </label>
+                            <label for="exampleInputPassword1">Código de segurança: (<em class="atributo">cvv</em>)<br> <strong class="ex"> </strong> </label>
                             <input required type="text" class="form-control" id="codigo_seguranca" placeholder="Código de segurança">
                         </div>
 

@@ -10,6 +10,21 @@ $file = file_get_contents(__DIR__ . '/credentials.json');
 $options = json_decode($file, true);
 
 if (isset($_POST)) {
+   
+    //  $repass_1 = [
+    //     'payee_code' => "431f766eb8ea7eed2eb91b35926972c1", // identificador da conta Gerencianet (repasse 1)
+    //     'percentage' => 2500 // porcentagem de repasse (5000 = 50%)
+    //   ];
+       
+    //   $repass_2 = [
+    //     'payee_code' => "Insira_aqui_o_indentificador_da_conta_destino", // identificador da conta Gerencianet (repasse 2)
+    //     'percentage' => 5000 // porcentagem de repasse (5000 = 50%)
+    //   ];
+       
+    //   $repasses = [
+    //     $repass_1,
+    //     $repass_2
+    //   ];
 
     $item_1 = [
         'name' => $_POST["descricao"],
@@ -30,7 +45,7 @@ if (isset($_POST)) {
         'birth' => $_POST["nascimento"]
     ];
 
-    $paymentToken = $_POST["payament_token"];
+    $paymentToken = $_POST["payment_token"];
 
     $billingAddress = [
         'street' => $_POST["rua"],
@@ -67,6 +82,6 @@ if (isset($_POST)) {
         print_r($e->error);
         print_r($e->errorDescription);
     } catch (Exception $e) {
-        print_r($e->getMessage());
+        print_r($e->getMessage()); //para chamar a chamada de vide, apenas chamar o link
     }
 }

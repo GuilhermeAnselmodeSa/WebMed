@@ -139,7 +139,7 @@
 
                     <div class="col-lg-3">
 
-                        <h5>Informações de pagamento</h5>
+                        <h5>Informações de pagamentoe</h5>
 
                         <div class="form-group">
                             <label for="exampleInputPassword1">Número do cartão: (<em class="atributo">number</em>)<br><strong class="ex"></strong> </label>

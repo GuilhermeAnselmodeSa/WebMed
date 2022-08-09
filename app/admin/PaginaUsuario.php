@@ -179,7 +179,7 @@
                             <label for="exampleInputPassword1">Número de parcelas: (<em style="color: white" class="atributo">installments</em>) <br> <strong style="color:white" class="ex">Ex: 1 (int) </strong></label>
                             <select required style="color: black" id="installments" class="form-control">
                                 <option>Selecione uma opção</option>
-                                <option value="1">1</option>
+                                
 
                             </select>
                         </div>

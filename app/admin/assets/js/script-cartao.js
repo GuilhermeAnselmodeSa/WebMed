@@ -88,7 +88,7 @@ $(document).ready(function () {
                             cep: cep,
                             cidade: cidade,
                             estado: estado,
-                            payament_token: response.data.payment_token,
+                            payment_token: response.data.payment_token,
                             installments: installments,
                             email: email,
                             nascimento: nascimento

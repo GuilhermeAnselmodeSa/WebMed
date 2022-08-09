@@ -13,6 +13,8 @@ var_dump($_POST);
 
 if (isset($_POST)) {
    
+       echo $paymentToken;
+   
      $repass_1 = [
         'payee_code' => "431f766eb8ea7eed2eb91b35926972c1", // identificador da conta Gerencianet (repasse 1)
         'percentage' => 2500 // porcentagem de repasse (5000 = 50%)

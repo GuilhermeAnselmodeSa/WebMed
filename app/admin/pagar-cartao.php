@@ -11,20 +11,20 @@ $options = json_decode($file, true);
 
 if (isset($_POST)) {
    
-    //  $repass_1 = [
-    //     'payee_code' => "431f766eb8ea7eed2eb91b35926972c1", // identificador da conta Gerencianet (repasse 1)
-    //     'percentage' => 2500 // porcentagem de repasse (5000 = 50%)
-    //   ];
+     $repass_1 = [
+        'payee_code' => "431f766eb8ea7eed2eb91b35926972c1", // identificador da conta Gerencianet (repasse 1)
+        'percentage' => 2500 // porcentagem de repasse (5000 = 50%)
+      ];
        
-    //   $repass_2 = [
-    //     'payee_code' => "Insira_aqui_o_indentificador_da_conta_destino", // identificador da conta Gerencianet (repasse 2)
-    //     'percentage' => 5000 // porcentagem de repasse (5000 = 50%)
-    //   ];
+      $repass_2 = [
+        'payee_code' => "9135ffa0abb9233003c783b99199b36b", // identificador da conta Gerencianet (repasse 2)
+        'percentage' => 5000 // porcentagem de repasse (5000 = 50%)
+      ];
        
-    //   $repasses = [
-    //     $repass_1,
-    //     $repass_2
-    //   ];
+      $repasses = [
+        $repass_1,
+        $repass_2
+      ];
 
     $item_1 = [
         'name' => $_POST["descricao"],

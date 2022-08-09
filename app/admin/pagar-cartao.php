@@ -9,11 +9,11 @@ use Gerencianet\Gerencianet;
 $file = file_get_contents(__DIR__ . '/credentials.json');
 $options = json_decode($file, true);
 
-var_dump($_POST);
+
 
 if (isset($_POST)) {
    
-       echo $paymentToken;
+    var_dump($paymentToken);
    
      $repass_1 = [
         'payee_code' => "431f766eb8ea7eed2eb91b35926972c1", // identificador da conta Gerencianet (repasse 1)
@@ -49,7 +49,10 @@ if (isset($_POST)) {
         'birth' => $_POST["nascimento"]
     ];
 
-    $paymentToken = $_POST["payment_token"];
+    $paymentToken = $_POST["payment_token"]; 
+
+      
+   
 
     $billingAddress = [
         'street' => $_POST["rua"],

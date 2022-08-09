@@ -9,6 +9,8 @@ use Gerencianet\Gerencianet;
 $file = file_get_contents(__DIR__ . '/credentials.json');
 $options = json_decode($file, true);
 
+var_dump($_POST);
+
 if (isset($_POST)) {
    
      $repass_1 = [
